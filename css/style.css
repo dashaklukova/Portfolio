@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter & family= Merriweather:wght@700 & display=swap');
+body{
+    background-color: black;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.body__titles{
+    font-family: 'Merriweather' serif;
+    font-size: 60px;
+    color: #bdae82;
+    text-align: center;
+    margin: 100px 0px 60px 0px;
+}
+header{
+    height: 910px;
+    background-image: url(../assets/images/bg.jpg);
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav__logo{
+    margin: 20px 0px 0px 30px;
+}
+.nav__text{
+    color: #ffff;
+}
+.nav__text :hover{
+    color:#bdae82 ;
+    transition-duration: 0,7s;
+}
+.nav__link{
+    font-family:sans-serif;
+    font-size: 20px;
+    color: #ffff;
+    text-decoration: none;
+    margin: 20px 30px;
+}
+.nav__link__lang{
+    font-family:sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffff;
+    margin: 20px 30px;
+}
+.header__about{
+    margin: 250px 0px 0px 80px;
+    color: #ffff;
+    max-width: 470px;
+}
+.header__about__title{
+    font-family: 'Merriweather' serif;
+    font-size: 60px;
+}
+.body__text{
+    color: white;
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.button__text{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.button__style{
+    padding: 15px 77px;
+    background-color:#bdae82 ;
+}
+.button__style :hover{
+    color: white;
+    transition-duration: 0,7s;
+}
+.section__skills{
+    display: flex;
+    height:242px ;
+    margin: 0px 60px;
+    justify-content: space-between;
+}
+.section__skills__titles{
+    color: #ffff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 50px 0px 35px 0px;
+}
+.skills__text{
+    max-width: 280px ;
+    color: white;
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.section__skills__items{
+    text-align: center;
+}
+.section__portfolio__seasons{
+    display: flex;
+    justify-content: center;
+} 
+.portfolio__buttons__text{
+    color: #bdae82;
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.seasons__buttons__autumn{
+    padding: 15px 77px;
+    margin: 0px 5px 55px 5px;
+    background-color: #bdae82;
+}
+.buttons__text__autumn{
+    color:black;
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.seasons__buttons{
+    padding: 15px 77px;
+    border: 2px solid #bdae82;
+    margin: 0px 5px 55px 5px;
+    background-color: black;
+}  
+.portfolio__buttons{
+    background-color: black;
+}
+.portfolio__buttons :hover{
+    background-color: #bdae82;
+    color: black;
+    transition-duration: 0,7s;
+}
+.section__portfolio__row{
+    display: flex;
+}
+.portfolio__images{
+    margin: 12px;
+}
+.section__video{
+    height:900px;
+    justify-content: center;
+}
+.section__video__player{
+    text-align: center;
+}
+#photobottom,#phototop{
+    position: relative;
+}
+#phototop{
+    top: -410px;
+    left: 650px;
+}
+.video__link :hover{
+    color: #bdae82;
+    transition-duration: 0,7s;
+}
+.price__section{
+    margin-bottom: 100px;
+}
+.section__price__title{
+    color: #ffff;
+    font-size: 28px;
+    font-family: 'Merriweather' serif;
+    font-weight: bold;
+    margin-top: 43px;
+}
+.section__price__prices{
+    color: #bdae82;
+    font-size: 24px;
+    font-family: 'Merriweather' serif;
+    font-weight: bold;
+    margin-bottom: 37px;
+}
+.price__button__style{
+    padding: 15px 77px;
+    background-color:#bdae82 ;
+    margin: 20px 0px;
+}
+.price__button__style :hover{
+    color: white;
+    transition-duration: 0,7s;
+}
+.section__price__items{
+    text-align: center;
+    border: 2px solid #bdae82;
+    margin: 12px;
+    width: 450px;
+    height: 505px;
+}
+.section__price{
+    display: flex;
+    justify-content: space-between;
+}
+.section__contacts{
+    background-image: url(../assets/images/contacts1.jpg);
+    height: 700px;
+}
+.section__contacts__form{
+    width: 370px;
+    height: 50px;
+    background-color: black;
+    opacity: 50%;
+    border: 3px solid #bdae82;
+    color: #bdae82;
+    margin: 10px;
+}
+.contacts__form__text{
+    width: 370px;
+    height: 100px;
+    background-color: black;
+    opacity: 50%;
+    border: 3px solid #bdae82;
+    color: #bdae82;
+    margin: 10px;
+}
+.contacts__button__style{
+    padding: 15px 66px;
+    background-color:#bdae82 ;
+    margin: 10px;
+}
+.contacts__button__style :hover{
+    color: white;
+    transition-duration: 0,7s;
+}
+.contacts__titles{
+    font-family: 'Merriweather' serif;
+    font-size: 60px;
+    color: #bdae82;
+    text-align: left;
+    margin: 40px 0px 10px 0px;
+}
+.contacts__form{
+    margin: 20px 20px 0px 900px;
+    padding-top: 30px;
+}
+.footer__text{
+    color: white;
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.footer__links__soc{
+    margin: 0px 5px;
+}
+.footer__links{
+    justify-content: flex-end;
+}
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px ;
+}
+
